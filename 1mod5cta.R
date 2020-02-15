@@ -18,3 +18,4 @@ chisq.test(y)
 xtabs( ~ survived + pclass + sex, data = titanic.passenger.list)
 prop.table(xtabs( ~ survived + pclass, data = titanic.passenger.list))*100
 CrossTable(titanic.passenger.list$survived,titanic.passenger.list$sex)
+Sys.Date()
